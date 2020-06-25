@@ -26,7 +26,6 @@ class Factorial {
         return res;
     }
 }
-
 class MainFactorialEx {
     public static void main(String[] args) {
         try {
@@ -34,7 +33,9 @@ class MainFactorialEx {
         } catch (FactorialException e) {
             e.printStackTrace();
             e.getNumber();
-          //  System.out.println(e.getMessage());
+            //  System.out.println(e.getMessage());
+
+
         }
     }
 }
