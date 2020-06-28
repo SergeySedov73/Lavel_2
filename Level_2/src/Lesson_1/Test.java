@@ -12,24 +12,7 @@ public class Test{
 //        System.out.println(i);
 //    }
 //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/////////////////////
 //
 //class Task1 {
 //    public static void main(String[] args) {
@@ -37,27 +20,7 @@ public class Test{
 //    }
 //}
 //
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+///////////////////////////
 //class A {
 //    {
 //        System.out.println("dym a");
@@ -75,37 +38,7 @@ public class Test{
 //        new A();
 //    }
 //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/////////////////////////////////
 //class TestEquals {
 //    public static void main(String[] args) {
 //        String s1 = new String("Bicycle");
@@ -113,55 +46,14 @@ public class Test{
 //        System.out.println(s1.equals(s2) == s2.equals(s1));
 //    }
 //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+////////////////////////////
 //class TestInc {
 //    public static void main(String[] args) {
 //        int x = 0;
 //        System.out.print(x++==++x);
 //    }
 //}
-
-
-
-
-
-
-
-
+///////////////////////////
 // 1 --------------------------
 //class Mountain {
 //    static String name = "Himalaya";
@@ -173,21 +65,7 @@ public class Test{
 //        System.out.println( getMountain().name );
 //    }
 //}
-// -----------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/////////////////////////////////////
 // 2 ---------------------
 //class Test2 {
 //    static void method(int... a) {
@@ -205,27 +83,7 @@ public class Test{
 //        method(a,b);
 //    }
 //}
-// ------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/////////////////////////////////////
 // 3
 //class Switch {
 //    public static void main(String[] args) {
@@ -240,22 +98,7 @@ public class Test{
 //        }
 //    }
 //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+////////////////////////////////////
 //4
 //Перечислите все валидные сигнатуры конструкторов класса Clazz:
 //
@@ -265,28 +108,8 @@ public class Test{
 //        void Clazz(String name)
 //        Clazz(name)
 //        Clazz()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+////////////////////////////////
 // 5 вывести алфавит
-
 //class Test5 {
 //    public static void main(String[] args) {
 //        for (char i = 'a'; i <= 'z'; i++) {
@@ -295,25 +118,7 @@ public class Test{
 //        }
 //    }
 //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+////////////////////////////////////
 //class TestStr {
 //    public static void main(String[] args) {
 //        String s = new String("ssssss");
