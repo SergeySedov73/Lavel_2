@@ -14,6 +14,5 @@ public class MainClassEnum
         return (num > 0) ? String.valueOf(num*8) + " hours" : "Weekend!!!";
     }
 }
-
 enum DayOfWeek
 {MONDAY, TUESDAY, WENSDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY}
