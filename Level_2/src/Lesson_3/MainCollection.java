@@ -21,8 +21,19 @@ public class MainCollection {
 //        list.add(1);
 //        list.add(2);
 //        list.add(3);
-//        list.add(null);
 //        list.add(4);
+//        list.add(5);
+//        for (Integer i :list) {System.out.print(i);}
+//        System.out.println();
+//        list.forEach(dondldTramp -> System.out.print(dondldTramp));
+//            System.out.println();
+//        for (int i = 0; i <list.size() ; i++) {
+//            System.out.print(i);
+//        }
+
+//        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+
+
 //
 //      //  list.remove((Integer) 4);
 //
@@ -33,7 +44,7 @@ public class MainCollection {
 //        System.out.println(list.size());
 //        System.out.println(list);
 
-
+//
 //        ArrayList<String> states = new ArrayList<>();
 //
 //        states.add("Германия");
@@ -41,18 +52,17 @@ public class MainCollection {
 //        states.add("Франиция");
 //        states.add("США");
 //        states.add("Россия");
-
+//
 //        for (int i = 0; i < states.size(); i++) {
 //            if (states.get(i).equalsIgnoreCase("Германия")) {
-//                states.remove(i);
-//                i--;
+//                System.out.println("Германия");
 //            }
 //        }
-
+//
 //        Iterator<String> iter = states.iterator();
 //
 //        while (iter.hasNext()) {
-//          //  System.out.println(iter.next());
+//            System.out.println(iter.next());
 //            if (iter.next().equalsIgnoreCase("Германия")) {
 //                iter.remove();
 //            }
@@ -112,26 +122,28 @@ public class MainCollection {
         //System.out.println(res);
 
 
-//        Random random = new Random();
+        Random random = new Random();
+
+        Map<Integer, Integer> hm = new HashMap<>();
+        System.out.println(hm + "- исходно");
+        for (int i = 0; i < 10; i++) {
+            System.out.println(hm+"итерация №" + (i+1));
+            int key = random.nextInt(3);
+            Integer res = hm.get(key);
+
+//            Integer curent = 0;
 //
-//        Map<Integer, Integer> hm = new HashMap<>();
-//
-//        for (int i = 0; i < 100; i++) {
-//            int key = random.nextInt(10);
-//            Integer res = hm.get(key);
-//
-////            Integer curent = 0;
-////
-////            if (res == null) {
-////                curent = 1;
-////            } else {
-////                curent += 1;
-////            }
-//
-//            hm.put(key, res == null ? 1 : res + 1);
-//        }
-//
-//        System.out.println(hm);
+//            if (res == null) {
+//                curent = 1;
+//            } else {
+//                curent += 1;
+//            }
+
+            hm.put(key, res == null ? 1 : res + 1);
+            System.out.println(hm+"итерация после отработки рандома №" + (i+1));
+        }
+
+        System.out.println(hm);
 
 
 //        List<String> al = new ArrayList<>();
@@ -146,19 +158,19 @@ public class MainCollection {
 //        hs.add("Гамма");
 //
 //        System.out.println(hs);
-
-
-        TreeSet<Employee> ts = new TreeSet<>();
-
-        ts.add(new Employee(10));
-        ts.add(new Employee(20));
-        ts.add(new Employee(30));
-
-
-        System.out.println(ts);
-
-
-        Map<Employee, Integer> hm = new HashMap<>();
+//
+//
+//        TreeSet<Employee> ts = new TreeSet<>();
+//
+//        ts.add(new Employee(10));
+//        ts.add(new Employee(20));
+//        ts.add(new Employee(30));
+//
+//
+//        System.out.println(ts);
+//
+//
+//        Map<Employee, Integer> hm = new HashMap<>();
 
     }
 }
